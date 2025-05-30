@@ -1,0 +1,169 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* HEADER */
+.banner {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+/* SEARCH BAR */
+.search-bar {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  padding: 0.7rem;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6a00;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #e65c00;
+}
+
+/* NAVIGATION */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ff6a00;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* MAIN CONTENT */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1f1f1f;
+}
+
+main p {
+  font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+
+/* FORMULÁRIO DE CADASTRO */
+.form-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #ff6a00;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 106, 0, 0.3);
+}
+
+form button {
+  padding: 1rem;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #e65c00;
+}
+
+
+.form-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
